@@ -1,16 +1,43 @@
-# mobile_issue_tracker
+# Mobile Issue Tracker with Offline Persistence
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter app allows users to create, view, update, filter, and resolve issues.  
+The app loads initial mock API data, stores data locally using SharedPreferences, and remains usable after app restart.
 
-This project is a starting point for a Flutter application.
+## Features Completed
 
-A few resources to get you started if this is your first Flutter project:
+- Mock login screen with email/password validation
+- Issue list screen
+- Dashboard summary with Open, In Progress, and Resolved counts
+- Create issue form
+- Edit issue form
+- Issue detail screen
+- Mark issue as Resolved or Closed with confirmation
+- Search by title
+- Filter by status and priority
+- Loading, empty, and error states
+- Pull-to-refresh from mock API
+- Local persistence using SharedPreferences
+- Offline-first style local save
+- Pending sync indicator using `isSynced`
+- Export issues to JSON
+- Light and dark mode support
+- Clean Provider-based state management
+- Basic separation between UI, provider, services, and models
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Provider
+- SharedPreferences
+- Mock API service
+- share_plus
+- path_provider
+
+## Setup
+
+```bash
+flutter pub get
+flutter run
