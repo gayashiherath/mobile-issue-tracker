@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "AndroidManifest.xml": "xml"
+  },
+  "xml.format.enable": true
+}
