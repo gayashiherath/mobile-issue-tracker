@@ -36,6 +36,13 @@ The app loads initial mock API data, stores data locally using SharedPreferences
 - share_plus
 - path_provider
 
+## Assumptions
+
+- API is mocked using a local service.
+- Created and edited issues are stored locally.
+- Sync is not connected to a real backend.
+- Unsynced local changes are marked with a cloud-off icon.
+
 ## Setup
 
 ```bash
